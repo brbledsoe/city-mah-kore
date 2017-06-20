@@ -1,4 +1,14 @@
-#map{
-	height: 500px;
-	width: 100%;
+#map {
+    height: 300px;
+    position: left;
+}
+
+.panel-primary {
+    border: none;
+}
+
+.dropdown-menu {
+    width: 560px;
+    margin-left: 14px;
+    background-color: royalblue;
 }

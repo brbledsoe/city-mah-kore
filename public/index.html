@@ -2,15 +2,40 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title></title>
 </head>
 
 <body>
-  
-    <h1> Museums </h1>
-    <div id="map"> </div>
+
+    <div style="max-width: 1200px; margin: 0 auto; padding: 10px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="panel panel-primary col-lg-6">
+                    <div class="panel-heading">Museums</div>
+                    <div class="panel-body" id="map"></div>
+                </div>
+                <div class="dropdown col-lg-6">
+                    <button type="button" class="btn btn-primary btn-md dropdown-toggle col-md-12" data-toggle="dropdown">Top 5 Museums <span class="glyphicon glyphicon-circle-arrow-down"></span></button>
+                    <ul class="dropdown-menu" aria-labelled-by="dropdownmenu">
+                        <li><a href="#">Tel Aviv MoA</a></li>
+                        <li><a href="#">Museum of the Jewish People</a></li>
+                        <li><a href="#">Eretz Israel</a></li>
+                        <li><a href="#">Palmach Museum</a></li>
+                        <li><a href="#">Ilana Goor Museum</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Show All</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="scripts/weather-api.js"></script>
     <script src="scripts/sports-api.js"></script>
     <script src="scripts/museum-api.js"></script>

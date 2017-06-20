@@ -1,0 +1,7 @@
+split the map and the drpopdown by 55/45 across the page
+
+
+i want to have a wide drop down(bootstrap) div to the right of the map that has the top 5 museums in the city,
+ once clicked it shows the museums position on the map with a custom marker
+
+
